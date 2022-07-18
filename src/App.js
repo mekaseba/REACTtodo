@@ -33,7 +33,7 @@ function App() {
   };
 
   const saveLocalTodos = () => {
-      localStorage.setItem('todos', JSON.stringify([todos]));
+      localStorage.setItem('todos', JSON.stringify(todos));
     }
 
   const getLocalTodos = () => {
